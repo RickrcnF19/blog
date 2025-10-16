@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Tecnología</title>
+    <style>
+        body {
+            background-color: #f5f0f2;
+            color: #222;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        header {
+            background-color: #f30071;
+            color: rgb(235, 232, 236);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        article {
+            background-color: rgb(247, 241, 246);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        h1, h2 {
+            color: #4c0291;
+        }
+        .etiquetas {
+            margin-top: 20px;
+            font-style: italic;
+            color: #4403f7;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Tecnología</h1>
+        <p>Explorando el futuro digital</p>
+    </header>
+
+    <article>
+        <h2>La inteligencia artificial en nuestra vida diaria</h2>
+        <img src="evolucion-inteligencia-artificial-1200x900.jpg" alt="inteligensiaArtificial" style="width: 300px; height: auto;">
+            La inteligencia artificial (IA) se ha convertido en una herramienta fundamental en la tecnología moderna. 
+            Desde asistentes virtuales como Alexa y Google Assistant, hasta sistemas de recomendación en plataformas 
+            como Netflix o Spotify, la IA está presente en casi todos los aspectos de nuestra vida cotidiana.
+        </p>
+        <p>
+            Su objetivo es facilitar nuestras tareas, mejorar la eficiencia y crear soluciones innovadoras que antes 
+            parecían imposibles. Sin embargo, también plantea retos éticos y sociales sobre la privacidad y el empleo.
+        </p>
+
+        <div class="etiquetas">
+            Etiquetas: <strong>#tecnología</strong> | <strong>#inteligenciaArtificial</strong> | <strong>#innovación</strong>
+        </div>
+    </article>
+
+</body>
+</html>
